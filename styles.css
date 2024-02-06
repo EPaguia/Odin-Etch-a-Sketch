@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: #003366;
+    gap:100px
+}
+
+.grid-container {
+    width: 650px;
+    height: 650px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    border:solid;
+    border-color: red;
+}
+
+label {
+    color:white
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+    margin-top:200px;
+    gap: 10px
+}
+
+.options button{
+    border-radius: 10px;
+}
